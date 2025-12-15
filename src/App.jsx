@@ -1,10 +1,16 @@
-// Local Components
+// - - - - - - - - - - Local Components
+// *** Redux Connect Method
 import ConnectCakeContainer from "./components/redux-connect/ConnectCakeContainer";
 import ConnectIcecreamContainer from "./components/redux-connect/ConnectIcecreamContainer";
-// Main Component
+// *** Redux Hooks
+import HooksIcecreamContainer from "./components/redux-hooks/HooksIcecreamContainer";
+import HooksCakeContainer from "./components/redux-hooks/HooksCakeContainer";
+
+// - - - - - - - - - - Main Component
 const App = () => {
   return (
     <>
+      {/* Redux Connect Method */}
       <h1 style={{textAlign: "center"}}>
         Using Connect Method From React Redux
       </h1>
@@ -20,6 +26,22 @@ const App = () => {
       >
         <ConnectCakeContainer />
         <ConnectIcecreamContainer />
+      </div>
+      <hr />
+      {/* Redux Hooks */}
+      <h1 style={{textAlign: "center"}}>Using Hooks From React Redux</h1>
+      <div
+        className="react-redux-connect"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          gap: "50px",
+        }}
+      >
+        <HooksCakeContainer />
+        <HooksIcecreamContainer />
       </div>
     </>
   );
