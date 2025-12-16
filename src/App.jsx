@@ -5,6 +5,8 @@ import ConnectIcecreamContainer from "./components/redux-connect/ConnectIcecream
 // *** Redux Hooks
 import HooksIcecreamContainer from "./components/redux-hooks/HooksIcecreamContainer";
 import HooksCakeContainer from "./components/redux-hooks/HooksCakeContainer";
+// *** Redux Thunk (Fetch Users)
+import UserContainer from "./components/fetch-users/UserContainer";
 
 // - - - - - - - - - - Main Component
 const App = () => {
@@ -42,6 +44,21 @@ const App = () => {
       >
         <HooksCakeContainer />
         <HooksIcecreamContainer />
+      </div>
+      <hr />
+      {/* Fetch Users */}
+      <h1 style={{textAlign: "center"}}>Using Redux Thunk (Fetch Users)</h1>
+      <div
+        className="react-redux-connect"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexDirection: "column",
+          gap: "50px",
+        }}
+      >
+        <UserContainer />
       </div>
     </>
   );
