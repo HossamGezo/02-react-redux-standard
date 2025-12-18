@@ -1,5 +1,15 @@
 # ⚛️ React Redux Integration (Standard Pattern)
 
+## 📚 Redux Mastery Series Navigation
+
+| Part | Topic | Tech Stack | Link |
+| :---: | :--- | :--- | :---: |
+| **01** | **Redux Core** | Vanilla JS, Store, Actions | [View Repo](https://github.com/HossamGezo/01-redux-vanilla-core) |
+| **02** | **React Redux** | React, Connect, Hooks, Thunk | 👉 **You are here** |
+| **03** | **Redux Toolkit** | RTK, TypeScript, createAsyncThunk | [View Repo](https://github.com/HossamGezo/03-redux-toolkit-typescript) |
+
+---
+
 > **Part 2** of the Redux Mastery Series.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e628ca4f-c44f-4a41-81a5-0d21ff2de714/deploy-status)](https://app.netlify.com/projects/redux-legacy-js-demo/deploys)
@@ -90,6 +100,13 @@ src/
     ```bash
     npm run dev
     ```
+
+---
+
+## 👨‍💻 Author
+
+**Hossam**
+- GitHub: [@HossamGezo](https://github.com/HossamGezo)
 
 ---
 
