@@ -1,8 +1,25 @@
 # ⚛️ React Redux Integration (Standard Pattern)
 
+## 📚 Redux Mastery Series Navigation
+
+| Part | Topic | Tech Stack | Link |
+| :---: | :--- | :--- | :---: |
+| **01** | **Redux Core** | Vanilla JS, Store, Actions | [View Repo](https://github.com/HossamGezo/01-redux-vanilla-core) |
+| **02** | **React Redux** | React, Connect, Hooks, Thunk | 👉 **You are here** |
+| **03** | **Redux Toolkit** | RTK, TypeScript, createAsyncThunk | [View Repo](https://github.com/HossamGezo/03-redux-toolkit-typescript) |
+
+---
+
 > **Part 2** of the Redux Mastery Series.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e628ca4f-c44f-4a41-81a5-0d21ff2de714/deploy-status)](https://app.netlify.com/projects/redux-legacy-js-demo/deploys)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=flat&logo=netlify)](https://6943f8962925601bae09c57f--redux-legacy-js-demo.netlify.app/)
+
 This repository demonstrates how to integrate **Redux (Standard Version)** with a **React** application. It covers multiple patterns including the legacy `connect` HOC, modern `Hooks` (useSelector/useDispatch), and asynchronous logic using `Redux Thunk`.
+
+<br />
+
+![Redux App Preview](./public/Redux_App.png)
 
 ---
 
@@ -81,5 +98,13 @@ src/
 
 ---
 
+## 👨‍💻 Author
+
+**Hossam**
+- GitHub: [@HossamGezo](https://github.com/HossamGezo)
+
+---
+
 ## 📝 License
 This project is for educational purposes to master the core concepts of Redux before moving to Redux Toolkit.
+```
