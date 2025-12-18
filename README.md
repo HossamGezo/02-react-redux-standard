@@ -107,4 +107,3 @@ src/
 
 ## 📝 License
 This project is for educational purposes to master the core concepts of Redux before moving to Redux Toolkit.
-```
